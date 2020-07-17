@@ -5,7 +5,7 @@ As a maker I convert units all the time, fractional to metric, tenths to metric,
 ### Element14
 The main home for this project is on the Element14 Community. There you can find the BOM (Bill of Materials), updates, the build video and discussions with myself and the community about this build.
 
-[Element14 Connumity Project Page](https://www.element14.com/community/docs/DOC-95185/l/episode-451-build-an-off-grid-wikipedia-with-raspberry-pi)
+[Element14 Connumity Project Page](https://www.element14.com/community/docs/DOC-95284/l/episode-455-arduino-unit-conversion-calculator)
 
 ## Installation
 This is a pretty normal Arduino install. Just fire up the the Arduino IDE, configure it for your board and compile/upload.
