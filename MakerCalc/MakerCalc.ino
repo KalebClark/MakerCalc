@@ -1,6 +1,6 @@
 #include "Arduino.h"
 #include <Wire.h>
-#include <LiquidCrystal_I2C.h>
+//#include <LiquidCrystal_I2C.h>
 #include <TimerOne.h>
 #include <ClickEncoder.h>
 #include <Adafruit_Keypad.h>
@@ -202,10 +202,7 @@ void menuDebug() {
 
 void calcDebug() {
     Serial.println("Calculator Debug======================================");
-    Serial.print("IB("); Serial.print(calc->ib_idx); Serial.print("): "); Serial.println(calc->input_buffer);
-    Serial.print("C1: "); Serial.println(calc->c1);
-    Serial.print("OPR: "); Serial.println(calc->oper);
-    Serial.print("C2: "); Serial.println(calc->c2);
+    Serial.print("IB("); Serial.print("): "); Serial.println(calc->input_buffer);
     Serial.print("RES: "); Serial.println(calc->result);
 
 }
@@ -216,4 +213,3 @@ void unitDebug() {
     Serial.print("\tResult: "); Serial.println(unit->result);
 
 }
-
