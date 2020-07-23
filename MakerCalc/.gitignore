@@ -2,3 +2,5 @@ build
 .vscode
 .kceHelpers.cpp
 .kceHelperrs.h
+**/*.o
+test/testCalculator
