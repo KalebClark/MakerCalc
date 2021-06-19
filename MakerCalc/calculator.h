@@ -1,6 +1,8 @@
 #ifndef calculator_h
 #define calculator_h
 
+#include <stdint.h>
+
 #define INPUT_BUFFER_SIZE 32
 #define RESULT_SIZE 32
 #define NUM_STACK_LENGTH 20
